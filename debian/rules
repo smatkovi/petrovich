@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_autoreconf:
+	touch ChangeLog NEWS README
+	dh_autoreconf

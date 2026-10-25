@@ -1,0 +1,22 @@
+petrovich (0.3.0) unstable; urgency=medium
+
+  * Maemo Leste port: Maemo 5's closed sharing dialog is replaced by a
+    "Send via" dialog: Bluetooth to a paired device through obexd (BlueZ 5)
+    and e-mail through Modest (libmodest-dbus-client).
+  * Packaging for Leste (debhelper 12).
+
+ -- Sebastian Matkovich <sebastian.matkovich@gmail.com>  Sun, 25 Oct 2026 11:30:00 +0100
+
+petrovich (0.2) unstable; urgency=low
+
+  * Use toupper for g_set_application_name()
+  * Fix description
+  * Act more like the File manager in handling the HildonEditToolbar
+
+ -- Faheem Pervez <trippin1@gmail.com>  Sat, 21 Nov 2009 16:22:16 +0000
+
+petrovich (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Faheem Pervez <trippin1@gmail.com>  Wed, 28 Oct 2009 16:43:47 +0000

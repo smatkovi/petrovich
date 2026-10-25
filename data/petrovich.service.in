@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=@OSSO_SERVICE@
+Exec=/usr/bin/@PACKAGE@

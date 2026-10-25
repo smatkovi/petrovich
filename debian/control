@@ -1,0 +1,21 @@
+Source: petrovich
+Section: user/system
+Priority: optional
+Maintainer: Sebastian Matkovich <sebastian.matkovich@gmail.com>
+Build-Depends: debhelper-compat (= 12), autoconf, automake, pkg-config, osso-af-settings,
+ libhildon1-dev, libhildonfm2-dev, libhildonmime-dev, libgtk2.0-dev, libglib2.0-dev,
+ libosso-dev, libmodest-dbus-client-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/smatkovi/petrovich
+Vcs-Git: https://github.com/smatkovi/petrovich.git
+
+Package: petrovich
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, bluez-obexd
+Recommends: modest
+Description: Send any file over Bluetooth or by e-mail
+ Petrovich lets you pick a file of your choosing, or several, and send
+ them to a paired Bluetooth device (OBEX Object Push) or attach them to a
+ new e-mail in Modest. A port of Faheem Pervez's Petrovich for Maemo 5 to
+ Maemo Leste, where Maemo 5's sharing dialog does not exist.
+XB-Maemo-Display-Name: Petrovich

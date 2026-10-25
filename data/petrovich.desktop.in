@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=@PACKAGE_VERSION@
+Name=Petrovich
+Exec=/usr/bin/@PACKAGE@
+Icon=@SHARING_ICON@
+Type=Application
+Categories=System;
+X-Osso-Service=@OSSO_SERVICE@
+X-Osso-Type=application/x-executable
